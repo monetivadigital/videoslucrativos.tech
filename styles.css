@@ -1,0 +1,298 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    box-sizing: border-box;
+}
+
+/*---SEC1---*/
+
+.sec1{
+    padding: 15px 0;
+    margin: auto;
+    max-width: 100%;
+}
+
+.insec1{
+  margin: auto;
+  max-width: 800px;
+  padding: 20px;
+}
+
+/*---SEC 1 END---*/
+
+/*---SEC 2---*/
+
+.sec2{
+    background-color: #252525;
+    padding: 15px 0;
+    margin: auto;
+    max-width: 100%;
+}
+
+.insec2{
+    margin: auto;
+    max-width: 800px;
+    text-align: center;
+    padding: 20px;
+}
+
+.insec2 h1{
+  font-size: 30px;
+  color: #fff;
+}
+
+.insec2 h2{
+  font-size: 23px;
+  color: #fff;
+}
+
+/*---SEC 2 END---*/
+
+/*---SEC 3---*/
+
+.insec3{
+    margin: auto;
+    max-width: 800px;
+    text-align: center;
+    padding: 20px;
+}
+
+.insec3 h1{
+  font-size: 30px;
+}
+
+.insec3 h2{
+  font-size: 23px;
+}
+
+/*---SEC 3 END---*/
+
+/*---SEC 4---*/
+.sec2{
+  background-color: #252525;
+  padding: 15px 0;
+  margin: auto;
+  max-width: 100%;
+}
+
+.insec4{
+  margin: auto;
+  max-width: 800px;
+  text-align: center;
+  padding: 20px;
+}
+
+.insec4-1{
+  display: block;
+  text-align: center;
+}
+
+.insec4 h1{
+font-size: 30px;
+color: #fff;
+}
+
+.insec4 h2{
+font-size: 23px;
+color: #fff;
+}
+
+/*---SEC 4 END---*/
+
+/*---SEC 5---*/
+
+.insec5{
+  margin: auto;
+  max-width: 1000px;
+  text-align: center;
+  padding: 20px;
+}
+
+.insec5-1{
+  margin: auto;
+  text-align: center;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+
+.box1{
+  padding: 20px;
+  margin: 10px;
+  border-radius: 5px;
+  background-color: #07aa171a;
+}
+
+
+/*---SEC 5 END---*/
+
+/*---SEC 6---*/
+
+.sec6{
+  background: radial-gradient(circle, rgba(62,50,4,1) 0%, rgba(31,23,4,1) 100%);
+}
+
+.insec6{
+  margin: auto;
+  max-width: 1200px;
+  text-align: center;
+  padding: 20px;
+}
+
+.insec6 h1{
+  font-size: 30px;
+  color: #fff;
+}
+
+
+/*---SEC 6 END---*/
+
+/*---SEC 7---*/
+
+.insec7{
+  margin: auto;
+  max-width: 1000px;
+  text-align: center;
+  padding: 20px;
+}
+
+.insec7 h1{
+  font-size: 30px;
+  color:#0bbe1d;
+  font-size: 30px;
+  text-align: left;
+}
+
+.insec7 p{
+  text-align: left;
+  font-size: 20px;
+  line-height: 1.8rem;
+}
+
+.insec7-1{
+  margin: auto;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  align-items: center;
+  align-content: center;
+}
+
+/*---SEC 7 END---*/
+
+/*---SEC 9---*/
+
+.insec9{
+  margin: auto;
+  max-width: 800px;
+  text-align: center;
+  padding: 20px;
+  border: 1px;
+  border-radius: 5px;
+}
+
+.insec9 h1{
+font-size: 30px;
+}
+
+.insec9 h2{
+font-size: 23px;
+}
+
+/*---SEC 3 END---*/
+
+/*---Rodapé---*/
+
+.rodape{
+    margin: auto;
+    text-align: center;
+    padding: 20px;
+    background-color: #ebebeb;
+}
+
+.rodape a{
+    font-size: 12px;
+    text-decoration: none;
+    color: #000;
+}
+
+/*---Rodapé END---*/
+
+/*---Accordeon---*/
+
+/* Style the buttons that are used to open and close the accordion panel */
+.accordion {
+  background-color: rgb(79, 79, 79);
+  color: rgb(255, 255, 255);
+  cursor: pointer;
+  padding: 17px;
+  width: 100%;
+  text-align: left;
+  border: none;
+  border-radius: 3px;
+  outline: none;
+  transition: 0.4s;
+  font-size: 18px;
+  font-weight: 600;
+  margin-top: 8px;
+}
+
+/* Add a background color to the button if it is clicked on (add the .active class with JS), and when you move the mouse over it (hover) */
+.active, .accordion:hover {
+  background-color: #ccc;
+  border-radius: 5px 5px 0 0;
+  color: #000;
+}
+
+/* Style the accordion panel. Note: hidden by default */
+.panel {
+  text-align: left;
+  padding: 17px;
+  font-size: 18px;
+  background-color: white;
+  display: none;
+  overflow: hidden;
+  border-radius: 0 0 5px 5px;
+}
+
+/*---Accordeon END---*/
+
+/*---Gradiente---*/
+
+
+
+/*---Gradiente END---*/
+
+
+.btn{
+    background-color: #0bbe1d;
+    padding: 20px 20px;
+    text-decoration: none;
+    color: #fff;
+    font-family: 'Oswald', sans-serif;
+    font-size: 22px;
+    font-weight: 300;
+    border-radius: 5px;
+    transition: ease-in 0.1s;
+}
+.btn:hover{
+    background-color: #07aa17;
+    transition: ease-in 0.1s;
+}
+
+/*---Mobile---*/
+
+@media screen and (max-width: 767px){
+
+  .insec5-1{
+    margin: auto;
+    text-align: center;
+    display: block;
+  }
+
+  .insec7-1{
+    display: Block;
+    text-align: center;
+
+  }
+
+}
